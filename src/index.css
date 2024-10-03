@@ -68,7 +68,8 @@ a{
   transition: var(--transition) ;
 }
 a:hover{
-  color:var(--color-light)
+  color:var(--color-white);
+  font-size: 20px;
 }
 .btn{
   width: max-content;

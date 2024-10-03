@@ -6,18 +6,23 @@ import SkillsandEducation from "./Components/SkillsandEducation/SkillsandEducati
 import Projects from "./Components/Projects/Projects"
 import Contact from "./Components/Contact/Contact"
 import Footer from "./Components/Footer/Footer"
+import { BrowserRouter , Routes , Route} from 'react-router-dom';
+
 
 
 function App() {
   return (
    <>
-   <Header/>
-   <NavBar/>
-   <About/>
-   <SkillsandEducation/>
-   <Projects/>
-   <Contact/>
-   <Footer/>
+ <Routes>
+<Route path='/' element={<Header/>}/>
+<Route path='/Contact' element={<Contact/>}/>
+<Route path='/SkillsandEducation' element={<SkillsandEducation/>}/>
+<Route path='/About' element={<About/>}/>
+<Route path='/Projects' element={<Projects/>}/>
+<Route path='/Footer' element={<Footer/>}/>
+ </Routes>
+ <NavBar/>
+   
    </>
   );
 }
