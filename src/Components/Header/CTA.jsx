@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { TfiDownload } from "react-icons/tfi";
 
 
@@ -11,10 +12,10 @@ const CTA = () => {
           <TfiDownload className="dwnld" />
         </span>
             </strong>        
-          
-       
       </a>
-      <a href="" className="btn , btn-primary">Let's Talk</a>
+      <Link to="/Contact" className="btn-primary btn ">
+         Let's Talk
+      </Link>
     </div>
   );
 };

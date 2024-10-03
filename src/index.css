@@ -51,6 +51,7 @@ h1{
 
 section{
   margin-top: 8rem ;
+  height: 100vh;
 }
 
 section h2 h5 {
@@ -67,10 +68,17 @@ a{
   color: var(--color-primary);
   transition: var(--transition) ;
 }
+
+Link{
+  color: var(--color-primary);
+  transition: var(--transition) ;
+}
+
 a:hover{
   color:var(--color-white);
-  font-size: 20px;
+  
 }
+
 .btn{
   width: max-content;
   display: inline-block;

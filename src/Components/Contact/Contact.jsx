@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Contact = () => {
   return (
     <Link to="/Contact">
-    <div>Contact</div>
+   <section id="contact">Contact</section>
     </Link>
 
   )

@@ -3,12 +3,12 @@ import "./header.css"
 import CTA from "./CTA"
 import Me from "../../assets/Me.png"
 import HeaderSocials from './HeaderSocials'
+import About from "../About/About"
 import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
-
-    <Link to="/">
+    <>
     <header>
       <div className="container header_container">
         <h5>Hello I'm</h5>
@@ -22,7 +22,8 @@ const Header = () => {
         <a href="#contact" className='scroll_down'>scroll down</a>
       </div>
     </header>
-    </Link>
+    <About/>
+    </>
   )
 }
 
