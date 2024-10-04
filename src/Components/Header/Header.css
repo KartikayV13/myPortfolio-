@@ -59,6 +59,8 @@ position: absolute;
 left: 0;
 bottom: 3rem;
 }
+
+
 .header_socials::after{
     content: "";
     height: 3rem;
@@ -98,5 +100,21 @@ bottom: 3rem;
     }
     .me{
         width: 98%;
+    }
+    .mobile{
+        width: 88%;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        margin-top: 10px;
+        font-size: x-large;
+        /* border: 2px solid rgb(238, 0, 0); */
+        padding: 10px;
+    }
+    
+    .header_Mobile_socials{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 }

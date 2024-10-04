@@ -3,6 +3,7 @@ import "./header.css"
 import CTA from "./CTA"
 import Me from "../../assets/Me.png"
 import HeaderSocials from './HeaderSocials'
+import IconMobile from './IconMobile'
 import About from "../About/About"
 import { Link } from 'react-router-dom'
 
@@ -19,10 +20,12 @@ const Header = () => {
         <div className="me">
           <img src={Me} alt="" />
         </div>
-        
         <Link to="/Contact"> <span className='scroll_down'>Scroll Down</span></Link>
-        
       </div>
+     <div className='mobile'>
+       <IconMobile/>
+     </div>
+      
     </header>
     <About/>
     </>

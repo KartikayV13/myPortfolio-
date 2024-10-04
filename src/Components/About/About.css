@@ -11,6 +11,14 @@
 h2{
     color: var(--color-primary);
 }
+.section h2{
+     padding-bottom: 2.5rem;
+    font-size: 1.8rem;
+}
+
+.section h5{
+    font-size: 1rem;
+}
 
 h2, h5 {
   text-align: center;
