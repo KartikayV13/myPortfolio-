@@ -72,17 +72,10 @@ bottom: 3rem;
 /* ---Tablet */
 
 @media screen and (max-width:1024px) {
-    header{
-      height: 70vh;
-    }
+   
 }
 /* ---mobile */
 
 @media screen and (max-width:600px) {
-    header{
-        height: 100vh;
-    }
-    .header_socials , .scroll_down{
-display: none;
-    }
+   
 }
