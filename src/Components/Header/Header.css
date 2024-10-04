@@ -9,6 +9,9 @@ header{
     height: 100%;
     position: relative;
 }
+h1{
+    color: var(--color-primary);
+}
 
 /* Me */
 .me{
@@ -72,10 +75,28 @@ bottom: 3rem;
 /* ---Tablet */
 
 @media screen and (max-width:1024px) {
-   
+
+    header{
+        height: 72vh;
+    }
+    .me{
+        
+    }
 }
+
+
 /* ---mobile */
 
 @media screen and (max-width:600px) {
-   
+    header{
+        height: 100vh;
+        width:auto;
+      
+    }
+    .header_socials,  .scroll_down{
+       display: none;
+    }
+    .me{
+        width: 98%;
+    }
 }

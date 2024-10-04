@@ -5,6 +5,23 @@ import Mee from "../../assets/Mee.png";
 import { MdOutlineElectricBolt } from "react-icons/md";
 import { FaNetworkWired } from "react-icons/fa";
 import { MdConnectWithoutContact } from "react-icons/md";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
+import { FaJs } from "react-icons/fa";
+import { SiSass } from "react-icons/si";
+import { FaBootstrap } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { RiReactjsLine } from "react-icons/ri";
+import { SiRedux } from "react-icons/si";
+import { RiJavaLine } from "react-icons/ri";
+import { DiMongodb } from "react-icons/di";
+import { SiFirebase } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
+import { IoLogoVercel } from "react-icons/io5";
+import { SiNetlify } from "react-icons/si";
+import { FaFigma } from "react-icons/fa";
+import { SiCanva } from "react-icons/si";
+import { TbBrandPicsart } from "react-icons/tb";
 
 const About = () => {
   return (
@@ -55,9 +72,126 @@ const About = () => {
             transitioning my knowledge into a frontend developer role.
           </p>
 
-          <Link className="btn-primary btn ">Let,s Talk</Link>
+          <Link to="/Contact" className="btn-primary btn ">Let,s Talk</Link>
         </div>
       </div>
+
+
+      <div className="container section">
+        <h5>Things I Learned</h5>
+          <h2>Skills</h2>
+          <div className="container skills_container">
+            <div className="frontend">
+              <h3>Frontend Developement</h3>
+              <div className="Front_content">
+                <article className="front_details">
+                <FaHtml5 className="skills-icons" />
+                <div><h4>HTML</h4>
+                <small className="text-light">Experienced </small></div>
+                </article>
+                <article className="front_details">
+                <FaCss3Alt className="skills-icons" />
+                <div><h4>CSS</h4>
+                <small className="text-light">Intermediate </small></div>
+                </article>
+                <article className="front_details">
+                <FaJs className="skills-icons" />
+                <div><h4>JavaScript</h4>
+                <small className="text-light">Experienced </small></div>
+                </article>
+                <article className="front_details">
+                <SiSass  className="skills-icons" />
+                <div><h4>SASS</h4>
+                <small className="text-light">Experienced </small></div>
+                </article>
+                <article className="front_details">
+                <FaBootstrap className="skills-icons" />
+                <div><h4>BootStrap</h4>
+                <small className="text-light">Experienced </small></div>
+                </article>
+                <article className="front_details">
+                <RiTailwindCssFill  className="skills-icons" />
+                <div><h4>TailWind CSS</h4>
+                <small className="text-light">Experienced </small></div>
+                </article>
+                <article className="front_details">
+                <RiReactjsLine  className="skills-icons"/>
+              <div><h4>React js</h4>
+              <small className="text-light">Experienced </small></div>
+                </article>
+                <article className="front_details">
+                <SiRedux className="skills-icons" />
+                <div><h4>React Redux</h4>
+                <small clasName="text-light">Experienced </small></div>
+                </article>
+              </div>
+
+            </div>
+{/* -------------------END OF FRONTEND___________________ */}
+
+            <div className="backend_database">
+              <h3>BackEnd Developement</h3>
+              <div className="Back_content">
+                <article className="back_details">
+                <RiJavaLine className="skills-icons" />
+                <div><h4>Java</h4>
+                <small className="text-light">Experienced </small></div>
+                </article>
+                <article className="back_details">
+                <DiMongodb className="skills-icons" />
+                <div><h4>MongoDB</h4>
+                <small className="text-light">Intermediate </small></div>
+                </article>
+                <article className="back_details">
+                <SiFirebase  className="skills-icons" />
+                <div><h4>FireBase</h4>
+                <small className="text-light">Experienced </small></div>
+                </article>
+
+            </div>
+            </div>
+
+            {/* ----------END OF BACKEND_______________ */}
+            
+            <div className="other">
+            <h3>Others</h3>
+            <div className="other_content">
+            <article className="other_details">
+                <FaGithub className="skills-icons" />
+               <div> <h4>GitHub</h4>
+               <small className="text-light"> Projects Storing</small></div>
+                </article>
+            <article className="other_details">
+                <IoLogoVercel className="skills-icons" />
+                <div><h4>Vercel</h4>
+                <small className="text-light">Deploying</small></div>
+                </article>
+            <article className="other_details">
+                <SiNetlify className="skills-icons" />
+                <div><h4>Netlify</h4>
+                <small className="text-light">Deploying </small></div>
+                </article>
+            <article className="other_details">
+                <FaFigma className="skills-icons" />
+                <div><h4>Figma</h4>
+                <small className="text-light"> UI-UX Designing </small></div>
+                </article>
+            <article className="other_details">
+                <SiCanva  className="skills-icons" />
+                <div><h4>Canva</h4>
+                <small className="text-light"> UI-UX Designing </small></div>
+                </article>
+            <article className="other_details">
+                <TbBrandPicsart  className="skills-icons" />
+                <div><h4>Pics Art</h4>
+                <small className="text-light"> UI-UX Designing </small></div>
+                </article>
+            </div>
+            </div>
+            
+          </div>
+      </div>
+
     </section>
   );
 };
