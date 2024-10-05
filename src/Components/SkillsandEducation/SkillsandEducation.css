@@ -1,0 +1,176 @@
+.skillEducation {
+  margin-top: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.content {
+  height: auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 5rem;
+}
+.skills,
+.education {
+  background: var(--color-bg-varients);
+  padding-bottom: 2rem;
+  border-radius: 0 0 2rem 2rem;
+}
+.capsule > h2 {
+  background: var(--color-primary);
+  padding: 1rem;
+  border-radius: 0 0 2rem 2rem;
+  color: white;
+}
+
+/* ----CAPSULE___________ */
+
+.progress_capsule {
+  align-items: center;
+  padding-top: 2rem;
+  display: grid;
+  place-items: center;
+  row-gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.progress_circle {
+  height: 130px;
+  width: 130px;
+  background: conic-gradient(#2056a7c8 0deg, #2056a7c8 360deg); /* fallback */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 20px 20px 41px #161637,
+             -20px -20px 41px #4242a1;
+   animation: rotate 2s forwards;
+}
+
+
+
+.inner { 
+  height: 110px;
+  width: 110px;
+  display: flex;
+  align-items: center;
+  background: var(--color-bg-varients);
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: inset 20px 20px 41px #161637,
+  inset -20px -20px 41px #4242a1;
+}
+
+.inner > p{
+  font-size: 15px;
+}
+
+@keyframes rotate {
+  from {
+    background: conic-gradient(#4db5ff 0deg, #2056a7c8 0deg);
+  }
+}
+.html{
+  animation: progress-html 2s forwards;
+}
+@keyframes progress-html {
+  from { background: conic-gradient(#4db5ff 0deg, #2056a7c8 0deg); }
+  to { background: conic-gradient(#4db5ff 324deg, #2056a7c8 0deg); } /* 90% */
+}
+
+.css {
+  animation: progress-css 2s forwards;
+}
+
+@keyframes progress-css {
+  from { background: conic-gradient(#4db5ff 0deg, #2056a7c8 0deg); }
+  to { background: conic-gradient(#4db5ff 288deg, #2056a7c8 0deg); } /* 80% */
+}
+
+.js {
+  animation: progress-js 2s forwards;
+}
+
+@keyframes progress-js {
+  from { background: conic-gradient(#4db5ff 0deg, #2056a7c8 0deg); }
+  to { background: conic-gradient(#4db5ff 234deg, #2056a7c8 0deg); } /* 65% */
+}
+
+/* Add similar keyframes for other skills */
+
+.sass {
+  animation: progress-sass 2s forwards;
+}
+
+@keyframes progress-sass {
+  to { background: conic-gradient(#4db5ff 270deg, #2056a7c8 0deg); } /* 75% */
+}
+
+.tailwind {
+  animation: progress-tailwind 2s forwards;
+}
+
+@keyframes progress-tailwind {
+  to { background: conic-gradient(#4db5ff 306deg, #2056a7c8 0deg); } /* 85% */
+}
+
+.react {
+  animation: progress-react 2s forwards;
+}
+
+@keyframes progress-react {
+  to { background: conic-gradient(#4db5ff 252deg, #2056a7c8 0deg); } /* 70% */
+}
+
+.redux {
+  animation: progress-redux 2s forwards;
+}
+
+@keyframes progress-redux {
+  to { background: conic-gradient(#4db5ff 216deg, #2056a7c8 0deg); } /* 60% */
+}
+
+.java {
+  animation: progress-java 2s forwards;
+}
+
+@keyframes progress-java {
+  to { background: conic-gradient(#4db5ff 306deg, #2056a7c8 0deg); } /* 85% */
+}
+
+.mongodb {
+  animation: progress-mongodb 2s forwards;
+}
+
+@keyframes progress-mongodb {
+  to { background: conic-gradient(#4db5ff 180deg, #2056a7c8 0deg); } /* 50% */
+}
+
+.firebase {
+  animation: progress-firebase 2s forwards;
+}
+
+@keyframes progress-firebase {
+  to { background: conic-gradient(#4db5ff 180deg, #2056a7c8 0deg); } /* 50% */
+}
+
+
+/* ___________CERTIFICATES----------------- */
+
+.certificates {
+  padding-bottom: 8rem;
+}
