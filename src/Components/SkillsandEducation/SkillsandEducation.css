@@ -249,29 +249,48 @@ text-align: start;
   text-shadow: 1px 1px 0.2px white
 }
 
-
-
 /* ___________CERTIFICATES----------------- */
 
 .certificates {
   padding-bottom: 8rem;
-  margin-top: 2rem;
-}
+  margin-top: 5rem;
 
-.certificates_heading{
-  
 }
 
 .certificates_content{
   display: grid;
-  grid-template-columns: repeat(2 , 1fr);
+  grid-template-columns: 400px 400px;
   gap: 5rem;
-
 }
 .hackerank , .other{
   background: var(--color-bg-varients);
   padding-bottom: 2rem;
   border-radius: 0 0 2rem 2rem;
+}
+
+.hackerank:hover , .other:hover{
+  background: transparent;
+  border: 1px solid var(--color-light);
+}
+
+.hackerrank-certificates{
+
+  padding: 1rem;
+}
+
+.hackerrank-certificates > ul >li{
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-bottom: 1px solid var(--color-light);
+  cursor: pointer;
+  line-break: anywhere;
+  list-style:inside;
+  box-shadow: #d1caca;
+}
+
+
+.certificates-name{
+  text-align: left;
 }
 
 /* ---Tablet */

@@ -31,11 +31,9 @@ const SkillsandEducation = () => {
 
 
       <div className="certificates">
-
         <div className="name">
-        <h1 className="certificates_heading">Certificates</h1>
+        <h1 className="certificates_heading">--Certificates--</h1>
         </div>
-
         <div className="certificates_content">
           <div className="hackerank">
             <HackerRank/>
@@ -44,8 +42,6 @@ const SkillsandEducation = () => {
             <Freecodecamp/>
           </div>
         </div>
-
-
       </div>
     </section>
   );
