@@ -256,6 +256,11 @@ text-align: start;
   margin-top: 5rem;
 
 }
+.fcc-heading > span{
+  color: black;
+  font-weight: 900;
+  font-size: 2rem;
+}
 
 .certificates_content{
   display: grid;
@@ -274,7 +279,6 @@ text-align: start;
 }
 
 .hackerrank-certificates{
-
   padding: 1rem;
 }
 
@@ -287,7 +291,6 @@ text-align: start;
   list-style:inside;
   box-shadow: #d1caca;
 }
-
 
 .certificates-name{
   text-align: left;
@@ -302,10 +305,6 @@ text-align: start;
     grid-template-columns: repeat(2 ,1fr);
     gap: 2rem;
     padding: 2rem;
-  }
-  .skills, .education {
-   
-    /* padding: 1rem;  */
   }
 
   .heading{
@@ -338,6 +337,29 @@ text-align: start;
   .venue{
     margin-bottom: 0px
   }
+  .certificates{
+    padding-bottom:10rem
+  }
+
+  .certificates_content{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    gap: 5rem;
+  }
+  .hackerrank-certificates > ul >li{
+    padding: 1rem;
+    font-size: 0.9rem;
+    border-bottom: 1px solid var(--color-light);
+    cursor: pointer;
+    line-break: anywhere;
+    list-style:inside;
+    box-shadow: #d1caca;
+  }
+.fcc-heading > span{
+  color: black;
+  font-weight: 900;
+  font-size: 2rem;
+}
 
 }
 /* ---Mobile */

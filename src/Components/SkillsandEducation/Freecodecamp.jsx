@@ -23,7 +23,8 @@ const FCC = [
   return (
     <div className="freecodecamp">
     <div className="heading">
-<h2>Free CodeCamp  <span>&</span> E D U C B A</h2>
+<h2 className='fcc-heading'>Free CodeCamp  <br />
+<span>&</span> E D U C B A</h2>
 <h5>--Certificates--</h5>
    </div>
 
