@@ -18,17 +18,33 @@
   height: auto;
   width: 80%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3 , 1fr);
   gap: 2rem;
-  padding: 5rem;
+  padding: 1.5rem;
+  margin-top: -2rem;
 }
+
 .skills,
 .education {
   background: var(--color-bg-varients);
   padding-bottom: 2rem;
   border-radius: 0 0 2rem 2rem;
 }
-.capsule > h2 {
+
+.skills:hover,
+.education:hover {
+  background: transparent;
+  border: 1px solid var(--color-light);
+}
+.skills-heading{
+margin-top: 3rem;
+}
+
+h2{
+  color: white;
+}
+
+.heading{
   background: var(--color-primary);
   padding: 1rem;
   border-radius: 0 0 2rem 2rem;
@@ -39,16 +55,17 @@
 
 .progress_capsule {
   align-items: center;
-  padding-top: 2rem;
+  padding: 2rem 0 0 0;
+  width: auto;
   display: grid;
+  grid-template-columns: repeat(2 , 1fr);
   place-items: center;
   row-gap: 2rem;
-  grid-template-columns: 1fr 1fr;
 }
 
 .progress_circle {
-  height: 130px;
-  width: 130px;
+  height: 90px;
+  width: 90px;
   background: conic-gradient(#2056a7c8 0deg, #2056a7c8 360deg); /* fallback */
   display: flex;
   align-items: center;
@@ -60,11 +77,9 @@
    animation: rotate 2s forwards;
 }
 
-
-
 .inner { 
-  height: 110px;
-  width: 110px;
+  height: 75px;
+  width: 75px;
   display: flex;
   align-items: center;
   background: var(--color-bg-varients);
@@ -76,7 +91,7 @@
 }
 
 .inner > p{
-  font-size: 15px;
+  font-size: 10px;
 }
 
 @keyframes rotate {
@@ -84,6 +99,7 @@
     background: conic-gradient(#4db5ff 0deg, #2056a7c8 0deg);
   }
 }
+
 .html{
   animation: progress-html 2s forwards;
 }
@@ -95,7 +111,6 @@
 .css {
   animation: progress-css 2s forwards;
 }
-
 @keyframes progress-css {
   from { background: conic-gradient(#4db5ff 0deg, #2056a7c8 0deg); }
   to { background: conic-gradient(#4db5ff 288deg, #2056a7c8 0deg); } /* 80% */
@@ -104,7 +119,6 @@
 .js {
   animation: progress-js 2s forwards;
 }
-
 @keyframes progress-js {
   from { background: conic-gradient(#4db5ff 0deg, #2056a7c8 0deg); }
   to { background: conic-gradient(#4db5ff 234deg, #2056a7c8 0deg); } /* 65% */
@@ -115,7 +129,6 @@
 .sass {
   animation: progress-sass 2s forwards;
 }
-
 @keyframes progress-sass {
   to { background: conic-gradient(#4db5ff 270deg, #2056a7c8 0deg); } /* 75% */
 }
@@ -123,7 +136,6 @@
 .tailwind {
   animation: progress-tailwind 2s forwards;
 }
-
 @keyframes progress-tailwind {
   to { background: conic-gradient(#4db5ff 306deg, #2056a7c8 0deg); } /* 85% */
 }
@@ -131,7 +143,6 @@
 .react {
   animation: progress-react 2s forwards;
 }
-
 @keyframes progress-react {
   to { background: conic-gradient(#4db5ff 252deg, #2056a7c8 0deg); } /* 70% */
 }
@@ -139,7 +150,6 @@
 .redux {
   animation: progress-redux 2s forwards;
 }
-
 @keyframes progress-redux {
   to { background: conic-gradient(#4db5ff 216deg, #2056a7c8 0deg); } /* 60% */
 }
@@ -147,7 +157,6 @@
 .java {
   animation: progress-java 2s forwards;
 }
-
 @keyframes progress-java {
   to { background: conic-gradient(#4db5ff 306deg, #2056a7c8 0deg); } /* 85% */
 }
@@ -155,7 +164,6 @@
 .mongodb {
   animation: progress-mongodb 2s forwards;
 }
-
 @keyframes progress-mongodb {
   to { background: conic-gradient(#4db5ff 180deg, #2056a7c8 0deg); } /* 50% */
 }
@@ -163,14 +171,159 @@
 .firebase {
   animation: progress-firebase 2s forwards;
 }
-
 @keyframes progress-firebase {
   to { background: conic-gradient(#4db5ff 180deg, #2056a7c8 0deg); } /* 50% */
 }
+
+/* -----------school and college--------------- */
+
+.heading-edu{
+  background: var(--color-primary);
+  padding: 1rem;
+  border-radius: 0 0 2rem 2rem;
+  color: white;
+}
+
+.heading-edu > h2{
+  margin: 0;
+  padding: 0;
+}
+
+.result{
+  /* border: 2px solid red; */
+  display: flex;
+  height: 100%;
+  gap: 3rem;
+  padding: 1.5rem 0 1.5rem 0;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+}
+
+.tenth , .twelfth , .B-tech{
+  /* border: 1px solid white; */
+  background: var(--color-primary);
+  border-radius: 2rem;
+  padding: 1rem;
+  width: auto;
+  height: auto;
+  box-shadow: 1px 1px 9px #d1caca, -1px 1px 9px #c5bbbb;
+}
+
+
+.details{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: space-between;
+}
+
+.details > img{
+  background: white;
+  border-radius: 50%;
+width: 80px;
+height: 80px;
+box-shadow:1px 1px 9px #050505, -1px 1px 9px #030303;
+
+}
+.platform{
+  text-align: start;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  white-space: nowrap;
+}
+
+.platform > h2{
+font-size: 1rem;
+text-align: start;
+}
+
+.degree{
+  color: rgb(19, 18, 18);
+  font-weight: 600;
+  font-size: 1rem;
+  text-shadow: 1px 1px 0.2px white
+}
+
 
 
 /* ___________CERTIFICATES----------------- */
 
 .certificates {
   padding-bottom: 8rem;
+  margin-top: 2rem;
+}
+
+.certificates_heading{
+  
+}
+
+.certificates_content{
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr);
+  gap: 5rem;
+
+}
+.hackerank , .other{
+  background: var(--color-bg-varients);
+  padding-bottom: 2rem;
+  border-radius: 0 0 2rem 2rem;
+}
+
+/* ---Tablet */
+
+@media screen and (max-width:1024px) {
+  .content{
+    width: 100%;
+    display:grid ;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 2rem;
+    padding: 2rem;
+  }
+  .skills, .education {
+   
+    /* padding: 1rem;  */
+  }
+
+  .heading{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .percentage { 
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 26px;
+  }
+  
+  .schl_clg > .heading{ 
+    color: white;
+    padding: 10px 0 20px 0
+  }
+
+  .result{
+    padding: 2rem;
+  }
+  .details > img{
+  /* width: 50px;
+  height: 50px; */
+  }
+
+  .venue{
+    margin-bottom: 0px
+  }
+
+}
+/* ---Mobile */
+
+@media screen and (max-width:600px) {
+
+ 
 }
