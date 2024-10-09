@@ -11,7 +11,7 @@ const Capsule = () => {
     <div className='progress_circle html'>
         <div className='inner'>
             <p className='percentage'>
-        HTML <br /> <br/> 90%
+        HTML <br /> 90%
             </p>
         </div>
     </div>
@@ -57,6 +57,28 @@ const Capsule = () => {
             </p>
         </div>
     </div>
+
+           <div className='progress_circle java view '>
+                <div className="inner">
+                    <p className='percentage'>
+                Java <br/> 85%
+                    </p>
+                </div>
+            </div>
+            <div className='progress_circle mongodb view'>
+                <div className="inner">
+                    <p className='percentage'>
+                Mongo DB <br/> 50%
+                    </p>
+                </div>
+            </div>
+            <div className='progress_circle firebase  view'>
+                <div className="inner">
+                    <p className='percentage'>
+                FireBase <br/> 50%
+                    </p>
+                </div>
+            </div>
 </div>
 
     </div>

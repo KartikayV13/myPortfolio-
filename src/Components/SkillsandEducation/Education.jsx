@@ -6,7 +6,7 @@ const Education = () => {
   return (
     <div className="schl_clg">
          <div className="heading-edu">
-          <h2>School & College</h2>
+          <h2>School <span className='edu-and'>&</span> College</h2>
             </div>
 
             <div className="result">
