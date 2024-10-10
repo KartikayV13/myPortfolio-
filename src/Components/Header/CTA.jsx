@@ -6,7 +6,7 @@ import { TfiDownload } from "react-icons/tfi";
 const CTA = () => {
   return (
     <div className="cta">
-      <a href="" download className="btn">   {/* -IMPORT CV FROM ASSETS FOLDER - */}
+      <a href="www.google.com" download className="btn">   {/* -IMPORT CV FROM ASSETS FOLDER - */}
         <strong>Resume 
         <span>
           <TfiDownload className="dwnld" />

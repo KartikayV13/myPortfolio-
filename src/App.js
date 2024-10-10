@@ -6,7 +6,7 @@ import SkillsandEducation from "./Components/SkillsandEducation/SkillsandEducati
 import Projects from "./Components/Projects/Projects"
 import Contact from "./Components/Contact/Contact"
 import Footer from "./Components/Footer/Footer"
-import { BrowserRouter , Routes , Route} from 'react-router-dom';
+import { Routes , Route} from 'react-router-dom';
 
 
 
