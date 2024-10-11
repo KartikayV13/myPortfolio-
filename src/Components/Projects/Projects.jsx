@@ -8,7 +8,8 @@ const Projects = () => {
    <section id="projects" className='container project_contaniner'>
     <div className="name">
         <h1>Kartikay varun</h1>
-        <h5>All Projects</h5>
+        <br />
+        <h2 className='projects_head'>Projects</h2>
         </div>
 
 <div className="projects">

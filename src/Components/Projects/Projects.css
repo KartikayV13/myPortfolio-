@@ -3,6 +3,11 @@
     margin-bottom: 7rem;
     height: auto;
 }
+
+.projects_head{
+font-size: 2rem;
+color: var(--color-primary);
+}
 .projects{
   
     height: auto;
@@ -81,6 +86,7 @@ align-items: center;
 }
 .project-_desc{
     font-size: .8rem;
+    
 }
 
 .plus_icon{
@@ -89,4 +95,54 @@ font-size: 1.5rem;
 
 .view{
     color: white;
+}
+
+/* ----------------Right____________ */
+
+.react-all{
+    /* border: 1px solid white; */
+    background: var(--color-bg-varients);
+}
+
+.project-name{
+    /* border: 1px solid red; */
+    padding: 1rem;
+}
+.project-grids{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 1rem;
+    
+}
+.project-grids > div{
+    border: 1px solid violet;
+    height: auto;
+    /* padding: 1rem; */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.discription_react{
+    height: auto;
+    /* border: 1px solid purple; */
+    overflow-wrap: break-word; /* Allow long words to break and wrap */
+    margin-top: 0.5rem; /* Optional: Add some spacing above the description */
+}
+.image{
+    border: 1px solid green;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+    align-items: flex-start;
+}
+.image img {
+    /* border: 1px solid green; */
+    max-width: 100%; /* Prevent images from exceeding the width */
+    height: auto; /* Maintain aspect ratio */
+    aspect-ratio: 3/2;
+    object-fit:fill;
 }

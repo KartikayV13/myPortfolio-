@@ -87,7 +87,7 @@ return (
   </div>
   {show[index] && <p className="project_desc">({item.description})</p>}
  
-  <a className="view" target="_blank" href={item.path}>View Project</a>
+  <a className="view" target="_blank" href={item.path}>View Code</a>
 </li>
         ))}
         </ul>
