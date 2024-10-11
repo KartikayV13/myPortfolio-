@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 // images of react projects
 
@@ -17,12 +17,13 @@ import portfolio from "../../assets/react/portfolio.png"
 
 const RightScreen = () => {
 
-const ReactJs = [
-    {
-        name: "Bg Changer",
-        discription: "Developed a React component that allows users to dynamically change the background color by clicking different buttons. Implemented state management using React's useState hook to update the background color based on user interaction. Designed a user-friendly interface with multiple buttons, each representing a distinct color.Applied conditional rendering and styling to ensure seamless and responsive color changes.",
-        path: "https://github.com/KartikayV13/react/tree/main/bgchanger",
-        img: BGchanger,
+    
+    const ReactJs = [
+        {
+            name: "Bg Changer",
+            discription: "Developed a React component that allows users to dynamically change the background color by clicking different buttons. Implemented state management using React's useState hook to update the background color based on user interaction. Designed a user-friendly interface with multiple buttons, each representing a distinct color.Applied conditional rendering and styling to ensure seamless and responsive color changes.",
+            path: "https://github.com/KartikayV13/react/tree/main/bgchanger",
+            img: BGchanger,
     },
     {
         name: "Basic Calculator",
@@ -92,10 +93,14 @@ const ReactJs = [
     },
 ]
 
+const [show , setShow] = useState(false)
 
+const toggleDescription = (index) => {
+    setShow(show === index ? null : index);
+}
 
   return (
-    <div className="react-all">
+      <div className="react-all">
          <div className="project_heading">
         <h2 className="project_h2">
           React JS
@@ -106,18 +111,19 @@ const ReactJs = [
     <div className="project-grids">
     {
         ReactJs.map((item , index) => (
-            <div className="map">
+            <div className="map" key={index}>
                 <div className="image">
                 <img src={item.img} alt="" />
-                <h3>{item.name}</h3>
+                <h3 className='name_project'>{item.name}</h3>
                 </div>
-
                 <div className='code'>
                     <a href={item.path}>View Code</a>
                 </div>
-
                 <div className='discription_react'>
-                    <p>{item.discription}</p>
+                <p className={show === index ? "" : 'react_discription'}>{item.discription}</p>
+                                    <button className='read_btn' onClick={() => toggleDescription(index)}>
+                                        {show === index ? "Read Less.." : "Read More.."}
+                                    </button>
                 </div>
 
             </div>

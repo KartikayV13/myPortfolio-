@@ -46,7 +46,7 @@ font-size: 3rem;
 .skills:hover,
 .education:hover {
   background: transparent;
-  border: 1px solid var(--color-light);
+  border: 1px solid var(--color-primary);
 }
 .skills-heading{
 margin-top: 3rem;
@@ -296,7 +296,7 @@ text-align: start;
 
 .hackerank:hover , .other:hover{
   background: transparent;
-  border: 1px solid var(--color-light);
+  border: 1px solid var(--color-primary);
 }
 
 .hackerrank-certificates{
@@ -454,7 +454,7 @@ border-radius: 20px;
 cursor: pointer;
 background: transparent;
 color: var(--color-primary);
-border: 1px solid var(--color-light);
+border: 1px solid var(--color-primary);
 }
 
 .skill-btn.active , .educ-btn.active{
@@ -470,10 +470,10 @@ border: 1px solid var(--color-light);
   /* margin-bottom: 3rem; */
   background: var(--color-bg-varients);
   padding-bottom: 1.5rem;
-  border-radius: 25px;
+  border-radius: 0 0 25px 25px;
 }
 .capsule:hover{
-  border: 1px solid var(--color-light);
+  border: 1px solid var(--color-primary);
 }
 
 .progress_circle{
@@ -492,9 +492,12 @@ border: 1px solid var(--color-light);
   margin-top: 2rem;
   width: 80%;
   height: auto;
-  border-radius: 20px;
+  border-radius: 0 0 25px 25px;
   background: var(--color-bg-varients);
   /* border: 1px solid var(--color-light); */
+}
+.schl_clg:hover{
+  border: 1px solid var(--color-primary);
 }
   
   .tenth , .twelfth , .B-tech{
