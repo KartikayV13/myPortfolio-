@@ -93,11 +93,12 @@ const RightScreen = () => {
     },
 ]
 
-const [show , setShow] = useState(false)
+const [show , setShow] = useState(null)
 
 const toggleDescription = (index) => {
     setShow(show === index ? null : index);
 }
+
 
   return (
       <div className="react-all">
