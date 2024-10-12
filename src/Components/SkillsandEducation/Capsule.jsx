@@ -4,8 +4,8 @@ const Capsule = () => {
   return (
     <div className='capsule'>
         <div className="heading">
-<h2>Skills I Have</h2>
-<h5> --Forntend--</h5>
+  <h3>Skills I Have</h3>
+  <h5> --Forntend--</h5> 
         </div>
 <div className="progress_capsule">
     <div className='progress_circle html'>

@@ -16,7 +16,7 @@ const Education = () => {
                         <div className="platform">
                             <h1 className="degree">High School (UP Board)</h1>
                             <h2 className="venue">St.Francies Xaviers Inter College</h2>
-                            <h5  >Ashok Nagar, Kanpur</h5>
+                            <h5 className='addrss'>Ashok Nagar, Kanpur</h5>
                         </div>
                     </div>
                 </div>

@@ -4,7 +4,7 @@ const ProgressBar = () => {
     return (
         <div className='capsule'>
        <div className="heading">
-    <h2>Skills I Have</h2>
+    <h3>Skills I Have</h3>
     <h5> --Backend-- </h5>
             </div>
         <div className="progress_capsule">

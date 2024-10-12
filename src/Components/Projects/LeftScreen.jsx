@@ -79,15 +79,16 @@ return (
         <ul className="project_ul">
         {HCJ.map((item , index) => (
 <li className="project_li" key={index}>
+  <div className="list_border">
   <div className="title">
   <p className="project_titles" key={index}>{item.name}</p>
   <span onClick={() => toggleDescription(index)} className="plus_icon">
                   {show[index] ? "-" : "+"}
                 </span>
   </div>
-  {show[index] && <p className="project_desc">({item.description})</p>}
- 
+  {show[index] && <p className="project_desc">{item.description}</p>}
   <a className="view" target="_blank" href={item.path}>View Code</a>
+  </div>
 </li>
         ))}
         </ul>

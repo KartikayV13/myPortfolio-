@@ -15,36 +15,36 @@ const SkillsandEducation = () => {
   };
 
   return (
-    <section id="skill_education" className="skillEducation">
-      <div className="name">
-        <h1> Kartikay varun</h1>
-        <h5>
-          Skills, Education, <br /> & <br /> Certificates
+    <section id="skill_education" className="skill_section">
+     <h1>Kartikay varun</h1>
+     <h5 className="S-E-C">
+         Skills, Education, <br /> & <br /> Certificates
         </h5>
-        <h1 className="skills-heading"> --SKILLS <span className="and">&</span>  Education--</h1>
-      </div>
+        <h2 className="skills-heading"> --SKILLS <span className="and">&</span>  EDUCATION--</h2>
 
-      <div className="hidden-on-pc-tablet">
-      <div className="buttons">
+<div className="container skillEducation">
+
+       <div className="hidden-on-pc-tablet">
+       <div className="buttons">
       <button
-          className={`skill-btn ${activeButton === "skills" ? "active" : ""}`}
+           className={`skill-btn ${activeButton === "skills" ? "active" : ""}`}
           onClick={() => handleButtonClick("skills")}
-          >
-          Skills
+         >
+           Skills
         </button>
         <button
-          className={`educ-btn ${activeButton === "education" ? "active" : ""}`}
-          onClick={() => handleButtonClick("education")}
+         className={`educ-btn ${activeButton === "education" ? "active" : ""}`}
+           onClick={() => handleButtonClick("education")}
           >
-          Education
+      Education
         </button>
       </div>
 
-      {activeButton === "skills" && <Capsule />}
+     {activeButton === "skills" && <Capsule />}
       {activeButton === "education" && <Education />}
           </div>
-
-      <div className="content hidden-on-mobile">
+  
+<div className="content hidden-on-mobile">
         <div className="skills">
           <Capsule />
         </div>
@@ -56,20 +56,22 @@ const SkillsandEducation = () => {
         </div>
       </div>
 
-
       <div className="certificates">
-        <div className="name">
-        <h1 className="certificates_heading">--Certificates--</h1>
-        </div>
-        <div className="certificates_content">
-          <div className="hackerank">
-            <HackerRank/>
-          </div>
-          <div className="other">
-            <Freecodecamp/>
-          </div>
-        </div>
-      </div>
+       <div className="name_Certif">
+      <h2 className="certificates_heading">--CERTIFICATES--</h2>
+       </div>
+       <div className="certificates_content">
+         <div className="hackerank">
+           <HackerRank/>
+         </div>
+         <div className="other">
+           <Freecodecamp/>
+         </div>
+       </div>
+     </div>
+
+</div>
+
     </section>
   );
 };

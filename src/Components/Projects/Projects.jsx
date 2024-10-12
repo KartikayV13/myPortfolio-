@@ -5,14 +5,14 @@ import RightScreen from './RightScreen'
 
 const Projects = () => {
   return (
-   <section id="projects" className='container project_contaniner'>
-    <div className="name">
+   <section id="projects" className='section_project'>
         <h1>Kartikay varun</h1>
         <br />
         <h2 className='projects_head'>Projects</h2>
-        </div>
+  
+  <div className="container project_contaniner">
 
-<div className="projects">
+  <div className="projects">
   <div className="left_list">
     <LeftScreen/>
   </div>
@@ -20,6 +20,7 @@ const Projects = () => {
     <RightScreen/>
   </div>
 </div>
+  </div>
 
    </section>
   )
