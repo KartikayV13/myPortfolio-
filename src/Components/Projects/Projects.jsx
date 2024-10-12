@@ -9,7 +9,7 @@ const Projects = () => {
         <h1>Kartikay varun</h1>
         <br />
         <h5>All</h5>
-        <h2 className='projects_head'>--Projects--</h2>
+        <h2 className='projects_head'>--PROJECTS--</h2>
   
   <div className="container project_contaniner">
 

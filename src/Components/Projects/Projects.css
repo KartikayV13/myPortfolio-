@@ -91,6 +91,7 @@ padding: 2rem 1rem 2rem 1rem;
 
 .right_list{
     cursor: pointer;
+    width: auto;
 }
 
 .react-all{
@@ -220,3 +221,148 @@ padding: 2rem 1rem 2rem 1rem;
     background: transparent;
     color: white;
   }
+
+
+  /* ---------------------MEDIUM DEVICES(TABLETS) */
+@media screen and (max-width: 1024px) {
+
+  .project_h2{
+    margin-bottom: 0;
+  }
+
+  .title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 .5rem 0 .5rem;
+  }
+
+  .project_titles{
+    font-size: .8rem;
+  }
+
+  .view{
+    padding: .5rem 0 .5rem .5rem;
+    font-size: .6rem;
+  }
+  .project_heading{
+    padding: 1rem;
+  }
+
+  .right_list{
+    width: auto;
+  }
+
+
+  .project-name{
+    padding: 1rem .5rem 1rem .5rem;
+
+  }
+
+  .map{
+    /* border: 2px solid red; */
+  }
+  .code{
+    /* border: 1px solid yellow; */
+    font-size: .8rem;
+  }
+
+  .name_project{
+    white-space: normal; 
+    display: flex;
+    align-items: start;
+    text-align: left;
+    font-size: 1.1rem;
+  }
+
+  .discription_react{
+    padding: 1px;
+    margin: 0;
+    /* border: 1px solid yellow; */
+    font-size: 0.7rem;
+  }
+  .react_discription{
+    padding: 1px;
+    /* border: 1px solid green; */
+    font-size: .7rem;
+    margin: 0;
+    
+  }
+
+  .read_btn{
+    margin: 5px 0 0 0;
+  }
+
+}
+
+@media screen and (max-width:600px) {
+
+  .projects{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .projects_head{
+  font-size: 1.5rem;
+  }
+  .project_h2{
+    font-size: 1.2rem;
+  }
+
+  .project_heading{
+    padding: .2rem;
+  }
+  .project_heading > h5{
+    font-size: .7rem;
+  }
+  .title{
+    padding:  .3rem .5rem 0 .5rem;
+    /* align-items: start; */
+  }
+  .project_titles{
+    padding: 0;
+    margin: 0;
+  }
+
+  .project_desc{
+    font-size: .7rem;
+    padding: .3rem .2rem .3rem .2rem ;
+    border-bottom: none;
+    margin: 0;
+  }
+
+  .name_project{
+    font-size: .8rem;
+  }
+.code{
+  font-size: .6rem;
+}
+.discription_react{
+  margin-top: 3px;
+}
+.discription_react > p{
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.read_btn{
+  font-size: .6rem;
+  padding: .3rem;
+  font-weight: 800;
+}
+
+.discription_react::-webkit-scrollbar{
+  display: block;
+  width: 0;
+}
+
+.discription_react::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary);
+  border-radius: 10px;
+}
+
+.discription_react::-webkit-scrollbar-track {
+  background-color: darkgray;
+}
+
+}
