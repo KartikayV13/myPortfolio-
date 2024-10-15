@@ -38,7 +38,7 @@ const hackerRank = [
   return (
     <div className="hackerrank">
          <div className="heading">
-<h2 className='heading_'>Hacker Rank</h2>
+<h2 className='heading_BIG'>Hacker Rank</h2>
 <h5 className='heading_certificates'>--Certificates--</h5>
         </div>
 <div className="hackerrank-certificates">
