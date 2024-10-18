@@ -6,19 +6,19 @@ import hr from "../../assets//media/HR.jpeg";
 const Professional = () => {
   return (
     <left>
-      <div className="social_heading">
+      <div className="social_heading hide-on-mobile">
         <h3>Professional Media</h3>
       </div>
 
       <div className="social_icons">
-        <div className="social_div">
+        <div className="social_div" >
           <a href="https://github.com/KartikayV13" target="_blank">
             <img src={github} alt="GitHub" id="GitHub" className="social_img" />
-            <label htmlFor="GitHub">GitHub</label>
+            <label htmlFor="GitHub">Git Hub</label>
           </a>
         </div>
 
-        <div className="social_div">
+        <div className="social_div ">
           <a href="https://www.freecodecamp.org/KartikayVarun13" target="_blank">
             <img
               src={fcc}
@@ -26,11 +26,11 @@ const Professional = () => {
               id="FreeCode Camp"
               className="social_img"
             />
-            <label htmlFor="FreeCode Camp">FCC</label>
+            <label htmlFor="FreeCode Camp">FreeCode Camp</label>
           </a>
         </div>
 
-        <div className="social_div">
+        <div className="social_div ">
           <a href="https://www.hackerrank.com/profile/varunkartikay031" target="_blank">
             <img
               src={hr}

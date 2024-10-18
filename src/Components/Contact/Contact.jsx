@@ -1,7 +1,7 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import "./Contact.css"
-import Professional from '../Projects/Professional'
-import Social from '../Projects/Social'
+import Professional from './Professional'
+import Social from './Social'
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 import emailjs from "emailjs-com"
@@ -27,6 +27,9 @@ const sendEmail = (e) => {
 };
 
 
+const [pmedia , setPMedia] = useState(false)
+const [smedia , setSMedia] = useState(false)
+
 
   return (
    <section id="contact" className='section_contact'>
@@ -36,17 +39,44 @@ const sendEmail = (e) => {
 
         <div className="container contact_container">
 
-<div className='media'>
+<div className='media  hide-on-mobile'>
   <div className="professional">
     <Professional/>
   </div>
-  <div className="social">
+  <div className="social hide-on-mobile">
     <Social/>
   </div>
 </div>
 
-<div className='contact_form'>
 
+
+{/*----------Mobile------------------*/}
+
+<div className='only-mobile hide-on-pc-tablet'>
+<div onClick={() => setPMedia(!pmedia)}  className="professional-mobile">
+  <div  className='prof-heading'>
+  <h3>Professional Media</h3>
+  <span> {pmedia? "-" : "+"} </span>
+  </div>
+
+  <div>
+    {pmedia && <Professional/>}
+  </div>
+</div>
+
+<div onClick={() => {setSMedia(!smedia)}} className="social-mobile">
+  <div className="social-heading">
+  <h3>Social Media</h3>
+  <span >{smedia ? "-" : "+"}</span>
+  </div>
+
+  <div>
+    {smedia && <Social/>}
+    </div>
+</div>
+</div>
+
+<div className='contact_form'>
 
   <div className='contact_box'>
 <article className='contact_option'>

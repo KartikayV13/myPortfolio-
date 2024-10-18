@@ -8,7 +8,7 @@ import x from "../../assets/media/x.png";
 const Social = () => {
   return (
     <right>
-      <div className="social_heading">
+      <div className="social_heading hide-on-mobile">
         <h3>Social Media</h3>
       </div>
 
