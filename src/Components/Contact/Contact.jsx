@@ -10,6 +10,7 @@ import emailjs from "emailjs-com"
 const Contact = () => {
 
 const form = useRef();
+const [messaStatus , setMessageStatus] = useState(null)
 
 const sendEmail = (e) => {
   e.preventDefault();
@@ -19,9 +20,13 @@ const sendEmail = (e) => {
     .then(
       () => {
         console.log('SUCCESS!');
+        setMessageStatus("Message sent sucessfully")
+        window.alert("Message sent sucessfully")
       },
       (error) => {
         console.log('FAILED...', error.text);
+        setMessageStatus("Failed to sent Message ")
+        window.alert("Failed to sent Message ")
       },
     );
 };
