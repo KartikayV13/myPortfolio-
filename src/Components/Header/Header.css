@@ -116,4 +116,9 @@ bottom: 3rem;
         align-items: center;
         justify-content: space-between;
     }
+
+    .about_content p {
+        text-align: left;
+    
+    }
 }

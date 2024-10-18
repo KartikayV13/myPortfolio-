@@ -277,9 +277,9 @@ section h1 {
 }
 
 @media (min-width: 768px) {
-  .progress_circle.java.view,
-  .progress_circle.mongodb.view,
-  .progress_circle.firebase.view {
+  .progress_circle.java.views,
+  .progress_circle.mongodb.views,
+  .progress_circle.firebase.views {
     display: none;
   }
 }
@@ -410,7 +410,7 @@ section h1 {
   }
 
   .certificates_heading {
-    margin-bottom: 0;
+    margin-bottom: 2.5rem;
   }
 
   .name_Certif {

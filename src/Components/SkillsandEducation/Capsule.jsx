@@ -58,21 +58,21 @@ const Capsule = () => {
         </div>
     </div>
 
-           <div className='progress_circle java view '>
+           <div className='progress_circle java views '>
                 <div className="inner">
                     <p className='percentage'>
                 Java <br/> 85%
                     </p>
                 </div>
             </div>
-            <div className='progress_circle mongodb view'>
+            <div className='progress_circle mongodb views'>
                 <div className="inner">
                     <p className='percentage'>
                 Mongo DB <br/> 50%
                     </p>
                 </div>
             </div>
-            <div className='progress_circle firebase  view'>
+            <div className='progress_circle firebase  views'>
                 <div className="inner">
                     <p className='percentage'>
                 FireBase <br/> 50%
