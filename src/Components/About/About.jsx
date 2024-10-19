@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import { Link } from "react-router-dom";
-import Mee from "../../assets/Mee.png";
+import Mine from "../../assets/mine.png"
 import { MdOutlineElectricBolt } from "react-icons/md";
 import { FaNetworkWired } from "react-icons/fa";
 import { MdConnectWithoutContact } from "react-icons/md";
@@ -31,7 +31,7 @@ const About = () => {
       <div className="container about_container">
         <div className="about_me">
         <div className="about_me-image">
-          <img src={Mee} alt="About_image" />
+          <img src={Mine} alt="About_image" />
         </div>
         </div>
         <div className="about_content">
@@ -61,7 +61,7 @@ const About = () => {
             self-learning web development in frontend technologies. 
             Driven by
             curiosity and a desire to switch to the IT sector, I have immersed
-            myself in <span className="lng"> HTML, CSS, JavaScript, and React </span>, building personal
+            myself in <strong><span className="lng"> JAVA+DSA HTML, CSS, JavaScript, and ReactJS </span></strong>, building personal
             projects to sharpen my understanding of responsive design, UI/UX
             principles, and frontend development best practices. I am eager to
             leverage my problem-solving abilities, analytical skills, and

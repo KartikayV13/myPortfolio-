@@ -36,7 +36,7 @@ const Education = () => {
                         <div className="platform">
                             <h1 className="degree">B.Tech (ME)</h1>
                             <h2 className="venue">Axis Institute Of <br /> Technology And Management</h2>
-                            <h5 className='addrss'>Rooma, Knapur</h5>
+                            <h5 className='addrss'>Rooma, Kanpur</h5>
                         </div>
                     </div>
                 </div>
