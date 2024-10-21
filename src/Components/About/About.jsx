@@ -56,7 +56,7 @@ const About = () => {
             As a Mechanical Engineering graduate with a strong passion for
             technology, <br /> After completing my graduation i tried work in mechanical
             engineering field but it didn't attracts me much, since childhood i
-            love to take my hands on laptop and software related thigs to i
+            love to take my hands on laptop and software related thigs so i
             tried to switch my self and I have spent the last two years
             self-learning web development in frontend technologies. 
             Driven by

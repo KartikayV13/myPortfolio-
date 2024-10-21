@@ -82,7 +82,7 @@ const RightScreen = () => {
     {
         name: "Spotify Clone (Selected Songs)",
         discription: "Developed a music streaming application mimicking Spotify's functionality using React.Integrated a library of 50 selected songs, allowing users to play, pause, and skip tracks seamlessly. Implemented a responsive design to ensure optimal performance across various devices and screen sizes. Utilized state management with React hooks to manage song playback, track selection, and user interactions. Enhanced user experience with features like song search, playlist creation, and real-time updates on currently playing tracks.",
-        path: "",
+        path: "https://github.com/KartikayV13/react_musciplayer",
         img: music,
     },
     {
