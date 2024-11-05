@@ -52,7 +52,7 @@ const RightScreen = () => {
     {
         name: "Mini Ipod",
         discription: "Built an interactive Tic-Tac-Toe game using React, implementing core game logic and player turns. Utilized React's useState and useEffect hooks to manage game state, track moves, and determine the winner. Designed the UI to display the game board dynamically and highlight the winning combination. Ensured smooth game resets and status updates after each round, providing an engaging user experience.",
-        path: "https://github.com/KartikayV13/react-tictactoe",
+        path: "https://github.com/KartikayV13/mini_ipod",
         img: ipod,
     },
     {
