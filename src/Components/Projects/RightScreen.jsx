@@ -76,7 +76,7 @@ const RightScreen = () => {
     {
         name: "Sassy Slice(Food Ordering App)",
         discription: "Developed a dynamic food ordering website using React, featuring a diverse menu of items including pizza, sandwiches, fries, shakes, and noodles etc. Implemented a responsive user interface with clear navigation and engaging design to enhance user experience across devices. Utilized React Router for seamless page transitions and to manage the navigation between the menu, order summary, and checkout sections. Integrated state management to track user selections, manage the shopping cart, and calculate order totals in real-time.Designed and implemented a visually appealing layout with CSS for effective presentation of menu items, including images, descriptions, and prices.",
-        path: "https://github.com/KartikayV13/Sassy-Slice",
+        path: "https://github.com/KartikayV13/sassy-slice",
         img: sassy,
     },
     {
