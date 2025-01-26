@@ -39,7 +39,7 @@ const About = () => {
             <article className="about_card">
               <MdOutlineElectricBolt className="about_icon" />
               <h5>Skills</h5>
-              <small>Web Development</small>
+              <small>Web Development & Front-end development</small>
             </article>
             <article className="about_card">
               <FaNetworkWired className="about_icon" />
