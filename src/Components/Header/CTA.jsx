@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { TfiDownload } from "react-icons/tfi";
-import kkResume from "../../assets/Resume.pdf"
+import kkResume from "../../assets/KKResume..pdf"
 
 
 const CTA = () => {
