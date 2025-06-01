@@ -18,14 +18,14 @@ const ProgressBar = () => {
             <div className='progress_circle mongodb'>
                 <div className="inner">
                     <p className='percentage'>
-               Next.js, </br> Mongo DB <br/> 50%
+                Mongo DB <br/> 50%
                     </p>
                 </div>
             </div>
             <div className='progress_circle firebase'>
                 <div className="inner">
                     <p className='percentage'>
-                FireBase <br/> 50%
+                Next.js <br/> 50%
                     </p>
                 </div>
             </div>
