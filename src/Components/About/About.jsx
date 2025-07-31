@@ -61,7 +61,7 @@ const About = () => {
             self-learning web development in frontend technologies. 
             Driven by
             curiosity and a desire to switch to the IT sector, I have immersed
-            myself in <strong><span className="lng"> JAVA+DSA HTML, CSS, SASS, JavaScript, and ReactJS, TailWind CSS, BootStrap, Next.js </span></strong>, building personal
+            myself in <strong><span className="lng"> JAVA+DSA HTML, CSS, SASS, JavaScript, and ReactJS, TailWind CSS, BootStrap, Next.js, Express, MongoDB </span></strong>, building personal
             projects to sharpen my understanding of responsive design, UI/UX
             principles, and frontend development best practices. I am eager to
             leverage my problem-solving abilities, analytical skills, and
